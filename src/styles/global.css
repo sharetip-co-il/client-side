@@ -1,0 +1,11 @@
+/* Global RTL Styles */
+* {
+  direction: rtl;
+  text-align: right; /* This ensures text alignment is also right-to-left */
+}
+
+/* Override specific elements if needed */
+/* For example, if you want a specific element to remain LTR (Left-to-Right): */
+.ltr-element {
+  direction: ltr;
+}
